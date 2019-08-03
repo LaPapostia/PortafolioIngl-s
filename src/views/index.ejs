@@ -25,7 +25,7 @@
   </style>
 
 
-  <div id="dropDownSelect1"></div>
+  <div id="dropDownSelect1" style="scroll-margin-block-start: 80px"></div>
   <!-- section one -->
   <div class="container-fluid" id="inicio">
     <div class="row bg-white text-black p-5 text-center">
@@ -395,6 +395,7 @@
 
  <!-- Validacion de ivanna para mostrar-->
     <script type="text/javascript">
+        document.getElementById("introIvanna").style.display = "none";
       function MostrarIvanna() {
         document.getElementById("introIvanna").style.display = "block";
       }
@@ -415,6 +416,8 @@
 
  <!-- Validacion de jaider para mostrar-->
 <script type="text/javascript">
+    //ocultar desde un principio
+    document.getElementById("introJaider").style.display = "none";
   function MostrarJaider() {
     document.getElementById("introJaider").style.display = "block";
   }

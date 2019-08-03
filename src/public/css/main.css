@@ -3,7 +3,9 @@ body{
     background: #4AC29A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
+    padding-top: 80px;
+  }
   /* images */
   #inicio{
       /* los siguientes valores son independientes del tamaño del círculo */
@@ -27,3 +29,13 @@ body{
  
 }
   
+/*Mantener fijo el nav*/
+#main-header {
+	height: 80px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  z-index: 1001;/* Evitar sobreposicion de ocntenido */
+  
+}
