@@ -9,12 +9,10 @@ body{
 
   .contenedorGlobal{
     width: 100%;
-    max-width: 100%;
   }
 
   .contenedor{
     width: 100%;
-    box-sizing: border-box;
   }
   
   .col-sm-6{
@@ -23,44 +21,38 @@ body{
 
   /* images */
 #inicio{
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 50%;
-  height: 100%;
+  border-radius: 50%; 
+  max-width: 100% ;
+  max-height: 100%;
 }
 
 #maya{
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  border-radius: 50%;  
+  max-width: 100% ;
+  max-height: 100%;
 }
 
 #jaider{
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  max-width: 100% ;
+  max-height: 100%;
 }
 #juanes{
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  border-radius: 50%; 
+  max-width: 100% ;
+  max-height: 100%;
 }
 
 #ivanna{
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  max-width: 100% ;
+  max-height: 100%;
 }
 
 #jaime{
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+  max-width: 100% ;
+  max-height: 100%;
 }
   
 
