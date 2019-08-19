@@ -229,11 +229,87 @@
         <div class="col-sm-6">
           <br><br><br><br><br><br><br><br>
           <h1 class="w-10s animated bounceInRight">Juanes Sepúlveda</h1>
-          <button class="btn" onclick="Mostrar_OcultarJua()"><i class="fas fa-caret-down"></i></i></button>
+          <button class="btn" onclick="Mostrar_OcultarJuanes()"><i class="fas fa-caret-down"></i></i></button>
         </div>
       </div>
     </div>
 
+    <!--Chapter introduction-->
+    <div class="contenedor" id="introJuanes">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Introduction</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+
+
+            <font size=5 color=black>Often:</font><br>
+            frequently; many times.
+            <br><br>
+
+
+
+
+            <font size=10 color=white>Summary</font> <br>
+            He talks about how there are a variety of people in London, about what you can think and read about this
+            city, and a little about how the writer, <br>
+            Vicky Shipton, does not belong to London, but loves this city. <br>
+
+
+
+            <font size=10 color=white>Activities</font> <br>
+            <font size=5 color=black>1. What is the tallest building in London?</font><br>
+            - b) an office building.<br><br>
+            <font size=5 color=black>2. What destroyed most of the city in 1666?</font><br>
+            - a) a fire.<br><br>
+            <font size=5 color=black>3. How many bridges are there across the River Thames?</font><br>
+            - c) thirty-four<br><br>
+            <font size=5 color=black>4. Who - or What - is Big Ben?</font><br>
+            - a) a clock<br><br>
+            <font size=5 color=black>5. Which Roman first came to the south of England?</font><br>
+            - b) Julius Caesar<br><br>
+            <font size=5 color=black>6. Who said ‘When a man is tired of london, he is tired of life’?</font><br>
+            - a) Samuel Johnson<br><br>
+            <font size=5 color=black>7. What is Harrods?</font><br>
+            - c) a shop<br><br>
+            <font size=5 color=black>8. Which king lost his head in 1649?</font><br>
+            - a) Charles I<br>
+          </p>
+        </div>
+      </div>
+
+      <!--Chapter one-->
+
+      <div class="row  text-white p-5 text-left ">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">A Great City</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=black>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            
+
+            <font size=5 color=black>Square:</font>
+            an open, typically four-sided, area surrounded by buildings in a village, town, or city.
+            <br><br>
+
+            
+
+            <font size=5 color=black>Across:</font>
+            from one side to the other of (a place, area, etc.).
+            <br><br>
+
+            
+            <font size=10 color=white>Summary</font> <br>
+            He tells us a little about his extension and asks some questions.
+          </p>
+        </div>
+      </div>
+    </div>
 
 
     <!-- section ivanna -->
@@ -534,6 +610,27 @@
     }
   </script>
 
+<script type="text/javascript">
+  //ocultar desde un principio
+  document.getElementById("introJuanes").style.display = "none";
+  function MostrarJuanes() {
+    document.getElementById("introJuanes").style.display = "block";
+  }
+  function OcultarJuanes() {
+    document.getElementById("introJuanes").style.display = "none";
+  }
+
+  function Mostrar_OcultarJuanes() {
+      var cajaJuanes = document.getElementById("introJuanes");
+
+      if (cajaJuanes.style.display == "none") {
+        MostrarJuanes();
+      } else {
+        OcultarJuanes();
+      }
+    }
+</script>
+
   <script type="text/javascript">
     //ocultar desde un principio
     document.getElementById("introMaya").style.display = "none";
@@ -554,6 +651,9 @@
       }
     }
   </script>
+
+
+
 
 
 
