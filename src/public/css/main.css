@@ -8,7 +8,9 @@ body{
   background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
   background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#b68d4c', GradientType=1 );
-    padding-top: 60px;
+  
+  padding-top: 60px;
+
   }
 
   .contenedorGlobal{
@@ -17,6 +19,7 @@ body{
 
   .contenedor{
     width: 100%;
+    
   }
 
   #contenedor1{
@@ -37,35 +40,41 @@ body{
   border-radius: 50%; 
   max-width: 100% ;
   max-height: 100%;
+  
 }
 
 #maya{
   border-radius: 50%;  
   max-width: 100% ;
   max-height: 100%;
+  opacity: 0.2;
 }
 
 #jaider{
   border-radius: 50%;
   max-width: 100% ;
   max-height: 100%;
+  opacity: 0.2;
 }
 #juanes{
   border-radius: 50%; 
   max-width: 100% ;
   max-height: 100%;
+  opacity: 0.2;
 }
 
 #ivanna{
   border-radius: 50%;
   max-width: 100% ;
   max-height: 100%;
+  opacity: 0.2;
 }
 
 #jaime{
   border-radius: 50%;
   max-width: 100% ;
   max-height: 100%;
+  opacity: 0.2;
 }
   
 
@@ -83,5 +92,4 @@ body{
 
 #foter{
   background: #B28A4B;
-
 }
