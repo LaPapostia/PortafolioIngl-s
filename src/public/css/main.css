@@ -1,8 +1,8 @@
 /*BackGround*/
 body{
-    background: #4AC29A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #a3bad2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dbe4ed, #a3bad2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dbe4ed, #a3bad2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     padding-top: 60px;
   }
@@ -12,6 +12,11 @@ body{
   }
 
   .contenedor{
+    width: 100%;
+  }
+
+  #contenedor1{
+    background-color: #6E91B4;
     width: 100%;
   }
   
