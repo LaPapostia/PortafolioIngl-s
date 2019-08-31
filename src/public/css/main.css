@@ -1,9 +1,13 @@
 /*BackGround*/
 body{
-    background: #a3bad2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dbe4ed, #a3bad2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dbe4ed, #a3bad2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: rgba(243,226,199,1);
+  background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(53%, rgba(193,158,103,1)), color-stop(76%, rgba(182,141,76,1)), color-stop(100%, rgba(182,141,76,1)));
+  background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
+  background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 53%, rgba(182,141,76,1) 76%, rgba(182,141,76,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#b68d4c', GradientType=1 );
     padding-top: 60px;
   }
 
@@ -16,8 +20,12 @@ body{
   }
 
   #contenedor1{
-    background-color: #6E91B4;
+    background-image: url(src/img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     width: 100%;
+    height: 650px;
   }
   
   .col-sm-6{
